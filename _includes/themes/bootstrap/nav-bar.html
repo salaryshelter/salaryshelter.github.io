@@ -1,0 +1,26 @@
+<!-- navbar-default -->
+<style>
+  .navbar-home-link {
+    color: #000000;
+    margin-left: -20px;
+    padding-top: 5px;
+  }
+</style>
+<nav class="navbar navbar-toggleable-sm navbar-light bg-default">
+  <div class="container">
+    <a class="navbar-brand" href="/"><img class="navbar-logo" src="{{ BASE_PATH }}/assets/images/webclip.png" alt=""></a>
+    <a class="navbar-home-link" href="/">{{ site.title }}</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbar1">
+      <ul class="navbar-nav">
+        {% assign pages_list = site.pages %}
+        <!-- Locate all the .html with YAML tags for navigation group -->
+        {% assign group = 'navigation' %}
+        {% include JB/pages_list %}
+      </ul>
+    </div>
+  </div>
+</nav>
