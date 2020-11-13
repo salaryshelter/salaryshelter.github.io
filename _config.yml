@@ -22,10 +22,10 @@ baseurl: ""
 #post_limit: 5
 
 
-title: ARCequity
-tagline: Currency with a Material Feel.
+title: ARC Equity
+tagline: ''
 author:
-  name: ARCequity
+  name: ARC Equity
   site: https://github.com/arcequity
   description: ''
   image: null
@@ -50,14 +50,14 @@ contact_info:
 # Team information"
 team:
   member_01:
-    name: Tim Rocho
-    title: CEO
+    name: ''
+    title: ''
     catchphrase: .
     background: .
     twitter: null
     instagram: null
     facebook: null
-    linkedin: https://www.linkedin.com/in/timrocho/
+    linkedin: null
 
 
 twitter_username: null
