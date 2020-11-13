@@ -211,10 +211,12 @@ strong{
     font-weight:400
 }
 .navbar-light .navbar-nav .nav-link{
-    color:#fff
+    color:#fff;
+    background-color: white;
 }
 .navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:hover{
-    color:#fff
+    color:#fff;
+    background-color: white;
 }
 #headers .navbar{
     margin-bottom:0
@@ -922,7 +924,7 @@ footer .menu li a:hover{
     -moz-border-radius:5px
 }
 .navbar-collapse{
-    text-align:center
+    text-align:center;
 }
 .navbar{
     padding:0;
@@ -950,7 +952,7 @@ footer .menu li a:hover{
     font-size:14px;
     margin-right:18px;
     font-weight:400;
-    padding:18px 0px
+    padding:18px 0px;
 }
 .navbar-light .navbar-nav .nav-link:hover{
     color:#3898eb
@@ -2869,7 +2871,7 @@ ul.nav-tabs li a{
     font-weight:700
 }
 .panel-group .panel-heading+.panel-collapse>.list-group,.panel-group .panel-heading+.panel-collapse>.panel-body{
-    border-top:none
+    border-top:none;
 }
 .panel-group .panel-heading>a:after{
     float:right
