@@ -902,6 +902,11 @@ footer .menu li a:hover{
   margin: 0px;
   
 }
+.center-contact{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .navbar-brand img{
     max-width:200px
 }
@@ -1911,10 +1916,24 @@ nav#menu span.fa.fa-bars:hover{
     font-size:30px;
     margin-bottom:30px
 }
+div.container4 {
+    height: 10em;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
 .contact-form .form-control{
     background:transparent;
     padding:15px 25px 15px 50px;
-    color:#444
+    color:#444;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .contact-form .form-control:focus{
     border-color:#EB586F
@@ -2068,7 +2087,9 @@ address i{
 #contact-form-1 .btn-form-submit{
     width:100%;
     border-radius:0;
-    padding:14px 24px
+    padding:14px 24px;
+    margin-left:auto;
+    margin-right:auto
 }
 .contact-form-2{
     margin-bottom:50px
@@ -2093,7 +2114,9 @@ address i{
 #contact-form-2 .btn-form-submit{
     width:30%;
     border-radius:0;
-    padding:14px 24px
+    padding:14px 24px;
+    margin-left:auto;
+    margin-right:auto
 }
 #login-form{
     width:100%;

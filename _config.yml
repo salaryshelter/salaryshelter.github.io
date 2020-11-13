@@ -15,12 +15,14 @@ baseurl: ""
 # so be sure to set them if your theme uses them.
 #
 
+get_intouch: "ARC specializes in high growth frontier markets. Our time is our most limited resource, but our relationships are our most valuable assets. We are not currently accepting new clients, however if you have been directed here please fill out the information below."
+
+
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
 #data-ad-slot: 2973388149
 #data-ad-client: ca-pub-9204963049240271
 #google_ad_client: ca-pub-9204963049240271
 #post_limit: 5
-
 
 title: ARC Equity
 tagline: ''

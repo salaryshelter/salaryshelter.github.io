@@ -11,50 +11,63 @@ css:
 js:
 ---
 {% include JB/setup %}
+<style>
+.get-intouch{
+  max-width: 500px;
+  text-align: center;
+  text-justify: inter-word;
+  padding-bottom: 20px;
+}
+.button-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
 <!-- Content Area Start -->
 <div id="content">
     
   <!-- CONTACT FORM -->
   <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <h3 class="title-head text-center">Get in touch</h3>
-        <form class="contact-form" data-toggle="validator" action="https://formspree.io/f/xknpbewa" method="POST">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="form-group">
-                <i class="contact-icon fa fa-user"></i>
-                <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required data-error="Please enter your name">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="form-group">
-                <i class="contact-icon fa fa-envelope-o"></i>
-                <input name="_replyto" type="email" class="form-control" id="email" placeholder="Email" required data-error="Please enter your email">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="form-group">
-                <i class="contact-icon fa fa-pencil-square-o"></i>
-                <input name="subject"" type="text" class="form-control" id="subject" placeholder="Subject" required data-error="Please enter your Subject">
-                <div class="help-block with-errors"></div>
-              </div>
-            </div>
-            <div class="col-sm-12">
-              <div class="form-group">
-                <textarea name="message" id="message" rows="8" placeholder="Message" required data-error="Please enter your message"></textarea>
-                <div class="help-block with-errors"></div>
-              </div>
-              <button type="submit" id="form-submit" class="btn btn-common btn-form-submit">Send Message</button>
-              <div id="msgSubmit" class="h3 text-center hidden"></div>
-              <div class="clearfix"></div>
-            </div>
+    </br>
+    <h3 class="title-head text-center">Get in Touch</h3>
+    <p class="get-intouch container">{{ site.get_intouch }}</p>
+    <form class="contact-form" data-toggle="validator" action="https://formspree.io/f/xknpbewa" method="POST">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="form-group">
+            <i class="contact-icon fa fa-user"></i>
+            <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required data-error="Please enter your name">
+            <div class="help-block with-errors"></div>
           </div>
-        </form>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group">
+            <i class="contact-icon fa fa-envelope-o"></i>
+            <input name="_replyto" type="email" class="form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="form-group">
+            <i class="contact-icon fa fa-pencil-square-o"></i>
+            <input name="subject"" type="text" class="form-control" id="subject" placeholder="Subject" required data-error="Please enter your Subject">
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="form-group">
+            <textarea name="message" id="message" rows="8" placeholder="Message" required data-error="Please enter your message"></textarea>
+            <div class="help-block with-errors"></div>
+          </div>
+          <div class="container">
+            <button type="submit" id="form-submit" class="btn btn-common btn-form-submit button-center">Send Message</button>
+            <div id="msgSubmit" class="h3 text-center hidden"></div>
+          </div>
+        </div>
       </div>
-    </div>
+    </form>
   </div>
 
 <!-- Content area end -->
