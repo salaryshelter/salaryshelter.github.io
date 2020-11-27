@@ -10,7 +10,7 @@ permalink: /:categories/:year/:month/:day/:title
 analytics:
   provider: google
   google:
-    tracking_id: 'UA-218165080-2'
+    tracking_id: 'UA-105767269-1'
 
 exclude: ["README.md", "Rakefile"]
 highlighter: null
