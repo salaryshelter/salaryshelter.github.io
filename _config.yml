@@ -7,7 +7,6 @@ permalink: /:categories/:year/:month/:day/:title
 # Settings for analytics helper
 # Set 'provider' to the analytics provider you want to use.
 # Set 'provider' to false to turn analytics off globally.
-#
 analytics:
   provider: google
   google:
@@ -18,14 +17,14 @@ highlighter: null
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url: https://arcequity.github.io
+url: https://salaryshelter.github.io
 baseurl: ""
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
 
 get_touchheader: ""
-get_intouch: "ARC specializes in high growth frontier markets. Our time is our most limited resource, but our relationships are our most valuable assets. We are not currently accepting new clients, however if you have been directed here please fill out the information below."
+get_intouch: "Salary Shelter™ is the best value service on planet earth that gives you TRUE legal and electronic protection from creditors, hackers, and thieves. Built under the regulation and technology foundation of international law and blockchain systems, there is no more secure way to protect your assets."
 
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
@@ -34,11 +33,11 @@ get_intouch: "ARC specializes in high growth frontier markets. Our time is our m
 #google_ad_client: ca-pub-9204963049240271
 #post_limit: 5
 
-title: ARC Equity
+title: Salary Shelter
 tagline: ''
 author:
-  name: ARC Equity
-  site: https://github.com/arcequity
+  name: Salary Shelter
+  site: https://github.com/salaryshelter
   description: ''
   image: null
   email: ''
@@ -81,7 +80,7 @@ twitter_username: null
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url: arcequity.github.io
+production_url: salaryshelter.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
